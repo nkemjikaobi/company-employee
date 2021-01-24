@@ -1,0 +1,11 @@
+'name' => $faker->company(),
+        'email' => $faker->email(),
+        'website' => $faker->url(),
+        'logo' => $faker->image('public/storage/logos',100,100)
+
+
+         'firstName' => $faker->firstName(),
+        'lastName' => $faker->lastName(),
+        'company' => $faker->company(),
+        'email' => $faker->email(),
+        'phone' => $faker->phoneNumber()
